@@ -1,0 +1,10 @@
+pandoc: 3.1.1
+pkgdown: 2.0.7
+pkgdown_sha: ~
+articles:
+  mesoclim_1_spdscale: mesoclim_1_spdscale.html
+last_built: 2024-04-09T18:34Z
+urls:
+  reference: https://jrmosedale.github.io/mesoclim/reference
+  article: https://jrmosedale.github.io/mesoclim/articles
+
