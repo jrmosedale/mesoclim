@@ -50,7 +50,7 @@
   <div class="dropdown-menu" aria-labelledby="dropdown-articles">
     <a class="dropdown-item" href="articles/mesoclim_1_download.html">1 Downloading Inputs</a>
     <a class="dropdown-item" href="articles/mesoclim_2_preparedata.html">2. Data pre-processing</a>
-    <a class="dropdown-item" href="articles/mesoclim_3_spdscale.html">3 UKCP18 spatial downscaling</a>
+    <a class="dropdown-item" href="articles/mesoclim_3_spdscale.html">3. Spatial downscaling</a>
     <a class="dropdown-item" href="articles/mesoclim_4_tmpdscale.html">4. Temporal downscaling</a>
     <a class="dropdown-item" href="articles/mesoclim_5_biascorrect.html">5. Bias correction</a>
   </div>
@@ -75,46 +75,50 @@
 <!-- badges: start -->
 <!-- badges: end -->
 <div class="section level2">
-<h2 id="overview">Overview<a class="anchor" aria-label="anchor" href="#overview"></a>
-</h2>
-<p>The mesoclim package provides functions to enable the mechanistic downscaling of climate data from coarse temporal and/or spatial resolutions to finer resolutions at which mesoclimatic processes, such as the effects of elevation, cold air drainage and coastal exposure, significantly affect how local weather conditions vary across the landscape. The package will permit the downscaling of climate data with a spatial resolution of 10s of kilometers to resolutions of under a single kilometer. It does not permit the modelling of microclimatic processes or below-canopy or below-ground conditions, but provides suitable data for subsequent microclimate modelling (refs to other packages).</p>
-<p>The functions address key steps and applications of the downscaling work flow:</p>
-<div class="section level3">
-<h3 id="id_1-downloading-climate-data-inputs">1 Downloading climate data inputs<a class="anchor" aria-label="anchor" href="#id_1-downloading-climate-data-inputs"></a>
-</h3>
-<p>Functions exist to download common sources of historic and future global climate and ancillary data from available repositories. Typically this data is have spatial resolutions of 10s of kilometers and a daily or hourly temporal resolution.</p>
-</div>
-<div class="section level3">
-<h3 id="id_2-preprocessing-data-inputs">2 Preprocessing data inputs<a class="anchor" aria-label="anchor" href="#id_2-preprocessing-data-inputs"></a>
-</h3>
-<p>Functions generate standard inputs from source files of coarse resolution climate and ancillary data. These inputs are required for the subsequent mesoclimate downscaling. Functions are also provided to check inputs and provide tabular and graphical summaries of the input data.</p>
-<p>{<em>Something on using weather station inputs??</em>}</p>
-</div>
-<div class="section level3">
-<h3 id="id_3-spatial-downscaling">3 Spatial downscaling:<a class="anchor" aria-label="anchor" href="#id_3-spatial-downscaling"></a>
-</h3>
-<p>Functions capture the effect of specific processes such as elevation, coastal exposure or cold air drainage, whereas wrapper functions apply an ensemble of chosen processes to downscale climate data to finer resolutions. Available function allow a high degree of control of which mesoclimatic effects are used in downscaling, reflecting user interest and/or whether particular processes have been partially captured in the input datasets. See: <code>vignette("mesoclim_1_spdscale")</code></p>
-</div>
-<div class="section level3">
-<h3 id="id_4-temporal-downscaling">4 Temporal downscaling<a class="anchor" aria-label="anchor" href="#id_4-temporal-downscaling"></a>
-</h3>
-<p>Functions allow the conversion of daily to hourly estimates of climate conditions.</p>
-</div>
-<div class="section level3">
-<h3 id="id_5-bias-correction">5 Bias correction<a class="anchor" aria-label="anchor" href="#id_5-bias-correction"></a>
-</h3>
-<p>Functions are provided to statistically compare different climate datasets and correct one set of data against another. Typically these functions will be used to correct modelled data using a long timeseries of observational data.</p>
-<p>Functions are also provided to carry out simple data checking, statistical summaries and graphing of climate datasets.</p>
-</div>
-</div>
-<div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
 <p>You can install the development version of mesoclim from <a href="https://github.com/" class="external-link">GitHub</a> with:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># install.packages("devtools")</span></span>
 <span><span class="co"># devtools::install_github("ilyamaclean/mesoclim")</span></span></code></pre></div>
-<p>What is special about using <code>README.Rmd</code> instead of just <code>README.md</code>? You can include R chunks.</p>
+</div>
+<div class="section level2">
+<h2 id="overview">Overview<a class="anchor" aria-label="anchor" href="#overview"></a>
+</h2>
+<p>The mesoclim package provides functions to enable the mechanistic downscaling of climate data from coarse temporal and/or spatial resolutions to finer resolutions at which mesoclimatic processes, such as the effects of elevation, cold air drainage and coastal exposure, significantly affect how local weather conditions vary across the landscape.</p>
+<p>The package permits the downscaling of climate data with a spatial resolution of 10s of kilometers to resolutions of under a single kilometer. It does not permit the modelling of microclimatic processes or below-canopy or below-ground conditions, but provides suitable data for subsequent microclimate modelling (refs to other packages).</p>
+<p>The functions are organised around key steps in the downscaling work flow:</p>
+<div class="section level3">
+<h3 id="id_1-downloading-climate-data-inputs">1 Downloading climate data inputs<a class="anchor" aria-label="anchor" href="#id_1-downloading-climate-data-inputs"></a>
+</h3>
+<p>Functions exist to download common sources of historic and future global climate and ancillary data from available repositories. Typically this data is have spatial resolutions of 10s of kilometers and a daily or hourly temporal resolution.</p>
+<p>See: <code><a href="articles/mesoclim_1_download.html">vignette("mesoclim_1_download")</a></code></p>
+</div>
+<div class="section level3">
+<h3 id="id_2-preprocessing-data-inputs">2 Preprocessing data inputs<a class="anchor" aria-label="anchor" href="#id_2-preprocessing-data-inputs"></a>
+</h3>
+<p>Functions generate standard inputs from source files of coarse resolution climate and ancillary data. These inputs are required for the subsequent mesoclimate downscaling. Functions are also provided to check inputs and provide tabular and graphical summaries of the input data. {<em>Something on using weather station inputs??</em>}</p>
+<p>See: <code><a href="articles/mesoclim_2_preparedata.html">vignette("mesoclim_2_preparedata")</a></code></p>
+</div>
+<div class="section level3">
+<h3 id="id_3-spatial-downscaling">3 Spatial downscaling<a class="anchor" aria-label="anchor" href="#id_3-spatial-downscaling"></a>
+</h3>
+<p>Functions capture the effect of specific processes such as elevation, coastal exposure or cold air drainage, whereas wrapper functions apply an ensemble of chosen processes to downscale climate data to finer resolutions. Available function allow a high degree of control of which mesoclimatic effects are used in downscaling, reflecting user interest and/or whether particular processes have been partially captured in the input datasets.</p>
+<p>See: <code><a href="articles/mesoclim_3_spdscale.html">vignette("mesoclim_3_spdscale")</a></code></p>
+</div>
+<div class="section level3">
+<h3 id="id_4-temporal-downscaling">4 Temporal downscaling<a class="anchor" aria-label="anchor" href="#id_4-temporal-downscaling"></a>
+</h3>
+<p>Functions allow the conversion of daily to hourly estimates of climate conditions.</p>
+<p>See: <code><a href="articles/mesoclim_4_tmpdscale.html">vignette("mesoclim_4_tmpdscale")</a></code></p>
+</div>
+<div class="section level3">
+<h3 id="id_5-bias-correction">5 Bias correction<a class="anchor" aria-label="anchor" href="#id_5-bias-correction"></a>
+</h3>
+<p>Functions are provided to statistically compare different climate datasets and correct one set of data against another. Typically these functions will be used to correct modelled data using a long timeseries of observational data.</p>
+<p>See: <code><a href="articles/mesoclim_5_biascorrect.html">vignette("mesoclim_5_biascorrect")</a></code></p>
+<p>Functions are also provided to carry out simple data checking, statistical summaries and graphing of climate datasets.</p>
+</div>
 </div>
 </div>
   </main><aside class="col-md-3"><div class="links">
