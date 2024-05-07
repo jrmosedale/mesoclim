@@ -17,7 +17,7 @@
 <link href="../deps/bootstrap-5.3.1/bootstrap.min.css" rel="stylesheet">
 <script src="../deps/bootstrap-5.3.1/bootstrap.bundle.min.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
-<!-- bootstrap-toc --><script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v1.0.1/dist/bootstrap-toc.min.js" integrity="sha256-4veVQbu7//Lk5TSmc7YV48MxtMy98e26cf5MrgZYnwo=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- search --><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- pkgdown --><script src="../pkgdown.js"></script><meta property="og:title" content="3. Spatial downscaling">
+<!-- bootstrap-toc --><script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v1.0.1/dist/bootstrap-toc.min.js" integrity="sha256-4veVQbu7//Lk5TSmc7YV48MxtMy98e26cf5MrgZYnwo=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js" integrity="sha512-7O5pXpc0oCRrxk8RUfDYFgn0nO1t+jLuIOQdOMRp4APB7uZ4vSjspzp5y6YDtDs4VzUSTbWzBFZ/LKJhnyFOKw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><!-- search --><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- pkgdown --><script src="../pkgdown.js"></script><meta property="og:title" content="3. Spatial downscaling">
 <meta property="og:description" content="mesoclim">
 <meta property="og:image" content="https://jrmosedale.github.io/mesoclim/logo.png">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
@@ -29,7 +29,7 @@
     <a href="#main" class="visually-hidden-focusable">Skip to contents</a>
     
 
-    <nav class="navbar fixed-top navbar-light navbar-expand-lg bg-light"><div class="container">
+    <nav class="navbar fixed-top navbar-light navbar-expand-lg bg-light" data-bs-theme="light"><div class="container">
     
     <a class="navbar-brand me-2" href="../index.html">mesoclim</a>
 
@@ -53,6 +53,7 @@
     <a class="dropdown-item" href="../articles/mesoclim_3_spdscale.html">3. Spatial downscaling</a>
     <a class="dropdown-item" href="../articles/mesoclim_4_tmpdscale.html">4. Temporal downscaling</a>
     <a class="dropdown-item" href="../articles/mesoclim_5_biascorrect.html">5. Bias correction</a>
+    <a class="dropdown-item" href="../articles/mesoclim_addtrees.html">ADDTREES Workflow without bias correction</a>
   </div>
 </li>
       </ul>
@@ -91,15 +92,17 @@
 defined by providing a fine-resolution DTM that also acts as a land/sea
 mask with sea cells having a NA value.</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span></span>
-<span><span class="co"># Get fine and medium res DTMs from package</span></span>
-<span><span class="va">dir_datasets</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/system.file.html" class="external-link">system.file</a></span><span class="op">(</span><span class="st">'data'</span>,package<span class="op">=</span><span class="st">'mesoclim'</span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="co"># Get fine and medium res DTMs from package</span></span>
+<span><span class="va">dir_dtm</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/system.file.html" class="external-link">system.file</a></span><span class="op">(</span><span class="st">'extdata/dtms'</span>,package<span class="op">=</span><span class="st">'mesoclim'</span><span class="op">)</span></span>
+<span><span class="va">dtmm</span><span class="op">&lt;-</span><span class="fu"><a href="https://rspatial.github.io/terra/reference/rast.html" class="external-link">rast</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/file.path.html" class="external-link">file.path</a></span><span class="op">(</span><span class="va">dir_dtm</span>,<span class="st">'dtmm.tif'</span><span class="op">)</span><span class="op">)</span></span>
+<span><span class="va">dtmf</span><span class="op">&lt;-</span><span class="fu"><a href="https://rspatial.github.io/terra/reference/rast.html" class="external-link">rast</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/file.path.html" class="external-link">file.path</a></span><span class="op">(</span><span class="va">dir_dtm</span>,<span class="st">'dtmf.tif'</span><span class="op">)</span><span class="op">)</span></span>
 <span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/base/load.html" class="external-link">load</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/file.path.html" class="external-link">file.path</a></span><span class="op">(</span><span class="va">dir_datasets</span>,<span class="st">'dtmf.rda'</span><span class="op">)</span><span class="op">)</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/base/load.html" class="external-link">load</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/file.path.html" class="external-link">file.path</a></span><span class="op">(</span><span class="va">dir_datasets</span>,<span class="st">'dtmm.rda'</span><span class="op">)</span><span class="op">)</span></span>
-<span></span>
-<span><span class="va">dtmm</span><span class="op">&lt;-</span><span class="fu"><a href="https://rspatial.github.io/terra/reference/wrap.html" class="external-link">unwrap</a></span><span class="op">(</span><span class="va">dtmm</span><span class="op">)</span></span>
-<span><span class="va">dtmf</span><span class="op">&lt;-</span><span class="fu"><a href="https://rspatial.github.io/terra/reference/wrap.html" class="external-link">unwrap</a></span><span class="op">(</span><span class="va">dtmf</span><span class="op">)</span></span></code></pre></div>
+<span><span class="co"># Show local downscale area within wider dtmm</span></span>
+<span><span class="va">aoi</span><span class="op">&lt;-</span><span class="fu"><a href="https://rspatial.github.io/terra/reference/vect.html" class="external-link">vect</a></span><span class="op">(</span><span class="fu"><a href="https://rspatial.github.io/terra/reference/ext.html" class="external-link">ext</a></span><span class="op">(</span><span class="va">dtmf</span><span class="op">)</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/graphics/frame.html" class="external-link">plot.new</a></span><span class="op">(</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rspatial.github.io/terra/reference/plot.html" class="external-link">plot</a></span><span class="op">(</span><span class="va">dtmm</span>,main<span class="op">=</span><span class="st">'Downscale area within wider dtmm'</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rspatial.github.io/terra/reference/plot.html" class="external-link">plot</a></span><span class="op">(</span><span class="va">aoi</span>,add<span class="op">=</span><span class="cn">TRUE</span><span class="op">)</span></span></code></pre></div>
+<p><img src="mesoclim_3_spdscale_files/figure-html/downscaled-dtm-1.png" width="700"></p>
 </div>
 <div class="section level3">
 <h3 id="preparing-the-data">Preparing the data<a class="anchor" aria-label="anchor" href="#preparing-the-data"></a>
@@ -111,20 +114,19 @@ as outlined in
 surrounding area and for the same time period as the input climate
 data.</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="va">startdate</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/as.POSIXlt.html" class="external-link">as.POSIXlt</a></span><span class="op">(</span><span class="st">'2018/01/01'</span><span class="op">)</span></span>
-<span><span class="va">enddate</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/as.POSIXlt.html" class="external-link">as.POSIXlt</a></span><span class="op">(</span><span class="st">'2018/12/31'</span><span class="op">)</span></span>
-<span><span class="va">member</span><span class="op">&lt;-</span><span class="st">'01'</span></span>
-<span></span>
-<span><span class="co">#Load prepared climate data</span></span>
+<code class="sourceCode R"><span><span class="co"># Load prepared climate data</span></span>
 <span><span class="va">ukcp18rcm</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/read_climdata.html">read_climdata</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/file.path.html" class="external-link">file.path</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/system.file.html" class="external-link">system.file</a></span><span class="op">(</span><span class="st">'extdata/preprepdata'</span>,package<span class="op">=</span><span class="st">'mesoclim'</span><span class="op">)</span>,<span class="st">'ukcp18rcm.Rds'</span><span class="op">)</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Get time period </span></span>
+<span><span class="va">startdate</span><span class="op">&lt;-</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">tme</span><span class="op">[</span><span class="fl">1</span><span class="op">]</span></span>
+<span><span class="va">enddate</span><span class="op">&lt;-</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">tme</span><span class="op">[</span><span class="fu"><a href="https://rdrr.io/r/base/length.html" class="external-link">length</a></span><span class="op">(</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">tme</span><span class="op">)</span><span class="op">]</span></span>
+<span></span>
+<span><span class="co"># set model run as same as that in climate data </span></span>
+<span><span class="va">member</span><span class="op">&lt;-</span><span class="st">'01'</span></span>
 <span></span>
 <span><span class="co"># Load sea surface data </span></span>
 <span><span class="va">dir_sst</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/system.file.html" class="external-link">system.file</a></span><span class="op">(</span><span class="st">'extdata/ukcp18sst'</span>,package<span class="op">=</span><span class="st">'mesoclim'</span><span class="op">)</span></span>
-<span><span class="va">ukcp18sst</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/create_ukcpsst_data.html">create_ukcpsst_data</a></span><span class="op">(</span><span class="va">dir_sst</span>,<span class="va">startdate</span>,<span class="va">enddate</span>,<span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">dtmc</span>,<span class="va">member</span><span class="op">)</span></span>
-<span></span>
-<span><span class="co"># Interpolate SST data to required timesteps</span></span>
-<span><span class="va">sst</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/spatial_interpNA.html">spatial_interpNA</a></span><span class="op">(</span><span class="va">ukcp18sst</span><span class="op">)</span></span>
-<span><span class="va">sst</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/time_interp.html">time_interp</a></span><span class="op">(</span><span class="va">sst</span>,<span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">tme</span><span class="op">)</span></span></code></pre></div>
+<span><span class="va">sst</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/create_ukcpsst_data.html">create_ukcpsst_data</a></span><span class="op">(</span><span class="va">dir_sst</span>,<span class="va">startdate</span>,<span class="va">enddate</span>,<span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">dtm</span>,<span class="va">member</span><span class="op">)</span></span></code></pre></div>
 </div>
 <div class="section level3">
 <h3 id="single-step-downscaling">Single step downscaling<a class="anchor" aria-label="anchor" href="#single-step-downscaling"></a>
@@ -148,13 +150,12 @@ arrays?</p></li>
 <code class="sourceCode R"><span></span>
 <span><span class="co"># Downscale one year of future climate data</span></span>
 <span></span>
-<span><span class="va">t0</span><span class="op">&lt;-</span><span class="fu">now</span><span class="op">(</span><span class="op">)</span></span>
-<span><span class="va">mesolizd</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/spatialdownscale.html">spatialdownscale</a></span><span class="op">(</span><span class="va">ukcp18rcm</span>, <span class="va">sst</span>, <span class="va">dtmf</span>, <span class="va">dtmm</span>, basins <span class="op">=</span> <span class="cn">NA</span>, cad <span class="op">=</span> <span class="cn">TRUE</span>,</span>
-<span>                           coastal <span class="op">=</span> <span class="cn">TRUE</span>, refhgt <span class="op">=</span> <span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">tempheight_m</span>, </span>
-<span>                           uhgt <span class="op">=</span> <span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">windheight_m</span>, </span>
+<span><span class="va">t0</span><span class="op">&lt;-</span><span class="fu"><a href="https://lubridate.tidyverse.org/reference/now.html" class="external-link">now</a></span><span class="op">(</span><span class="op">)</span></span>
+<span><span class="va">mesoclimate</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/spatialdownscale.html">spatialdownscale</a></span><span class="op">(</span><span class="va">ukcp18rcm</span>, <span class="va">sst</span>, <span class="va">dtmf</span>, <span class="va">dtmm</span>, basins <span class="op">=</span> <span class="cn">NA</span>, cad <span class="op">=</span> <span class="cn">TRUE</span>,</span>
+<span>                           coastal <span class="op">=</span> <span class="cn">TRUE</span>, thgto <span class="op">=</span><span class="fl">2</span>, whgto<span class="op">=</span><span class="fl">2</span>, </span>
 <span>                           rhmin <span class="op">=</span> <span class="fl">20</span>, pksealevel <span class="op">=</span> <span class="cn">TRUE</span>, patchsim <span class="op">=</span> <span class="cn">TRUE</span>, </span>
 <span>                           terrainshade <span class="op">=</span> <span class="cn">FALSE</span>, </span>
-<span>                           precipmethod <span class="op">=</span> <span class="st">"Tps"</span>, fast <span class="op">=</span> <span class="cn">TRUE</span>, noraincut <span class="op">=</span> <span class="fl">0.01</span><span class="op">)</span></span>
+<span>                           precipmethod <span class="op">=</span> <span class="st">"Elev"</span>, fast <span class="op">=</span> <span class="cn">TRUE</span>, noraincut <span class="op">=</span> <span class="fl">0.01</span><span class="op">)</span></span>
 <span><span class="co">#&gt; Downscaling wind...</span></span>
 <span><span class="co">#&gt; Downscaling temperature...</span></span>
 <span><span class="co">#&gt; Downscaling relative humidity</span></span>
@@ -163,49 +164,66 @@ arrays?</p></li>
 <span><span class="co">#&gt; Downscaling LW radiation with terrain shading...</span></span>
 <span><span class="co">#&gt; Downscaling precipitation...</span></span>
 <span><span class="co">#&gt; Formatting output...</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span><span class="fu">now</span><span class="op">(</span><span class="op">)</span><span class="op">-</span><span class="va">t0</span><span class="op">)</span></span>
-<span><span class="co">#&gt; Time difference of 7.01373 mins</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span><span class="fu"><a href="https://lubridate.tidyverse.org/reference/now.html" class="external-link">now</a></span><span class="op">(</span><span class="op">)</span><span class="op">-</span><span class="va">t0</span><span class="op">)</span></span>
+<span><span class="co">#&gt; Time difference of 1.203168 mins</span></span>
 <span></span>
-<span><span class="co"># write_climdata(mesolizd,file.path(system.file('extdata/dscaledata',package='mesoclim'),'mesolizd.rds'))</span></span>
-<span></span>
-<span><span class="co"># mesolizd&lt;-read_climdata(file.path(system.file('extdata/dscaledata',package='mesoclim'),'mesolizd.rds')))</span></span></code></pre></div>
+<span><span class="co"># write_climdata(mesoclimate,file.path(system.file('extdata/dscaledata',package='mesoclim'),'mesoclimate.rds'))</span></span>
+<span><span class="co"># mesoclimate&lt;-read_climdata(file.path(system.file('extdata/dscaledata',package='mesoclim'),'mesoclimate.rds')))</span></span></code></pre></div>
 </div>
 <div class="section level4">
 <h4 id="display-outputs">Display outputs<a class="anchor" aria-label="anchor" href="#display-outputs"></a>
 </h4>
 <p>In tabular form for all times and locations:</p>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="va">smry_fun</span><span class="op">&lt;-</span><span class="kw">function</span><span class="op">(</span><span class="va">x</span><span class="op">)</span> <span class="fu"><a href="https://rspatial.github.io/terra/reference/summary.html" class="external-link">summary</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/vector.html" class="external-link">as.vector</a></span><span class="op">(</span><span class="fu"><a href="../reference/dot-is.html">.is</a></span><span class="op">(</span><span class="va">x</span><span class="op">)</span><span class="op">)</span><span class="op">)</span></span>
-<span><span class="va">rslt</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/lapply.html" class="external-link">sapply</a></span><span class="op">(</span><span class="va">mesolizd</span><span class="op">[</span><span class="fu"><a href="https://rspatial.github.io/terra/reference/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">mesolizd</span><span class="op">)</span><span class="op">]</span>,<span class="va">smry_fun</span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="va">climvars</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">'tmin'</span>,<span class="st">'tmax'</span>,<span class="st">'relhum'</span>,<span class="st">'pres'</span>,<span class="st">'swrad'</span>,<span class="st">'lwrad'</span>,<span class="st">'windspeed'</span>,<span class="st">'winddir'</span>,<span class="st">'prec'</span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">smry_fun</span><span class="op">&lt;-</span><span class="kw">function</span><span class="op">(</span><span class="va">x</span><span class="op">)</span> <span class="fu"><a href="https://rspatial.github.io/terra/reference/summary.html" class="external-link">summary</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/vector.html" class="external-link">as.vector</a></span><span class="op">(</span><span class="fu"><a href="https://rspatial.github.io/terra/reference/coerce.html" class="external-link">as.array</a></span><span class="op">(</span><span class="va">x</span><span class="op">)</span><span class="op">)</span><span class="op">)</span></span>
+<span><span class="va">rslt</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/lapply.html" class="external-link">sapply</a></span><span class="op">(</span><span class="va">mesoclimate</span><span class="op">[</span><span class="va">climvars</span><span class="op">]</span>,<span class="va">smry_fun</span><span class="op">)</span></span>
 <span><span class="va">stats_df</span><span class="op">&lt;-</span><span class="fu"><a href="https://rspatial.github.io/terra/reference/as.data.frame.html" class="external-link">as.data.frame</a></span><span class="op">(</span><span class="fu"><a href="https://rspatial.github.io/terra/reference/transpose.html" class="external-link">t</a></span><span class="op">(</span><span class="fu"><a href="https://rspatial.github.io/terra/reference/math-generics.html" class="external-link">round</a></span><span class="op">(</span><span class="va">rslt</span>,<span class="fl">3</span><span class="op">)</span><span class="op">)</span><span class="op">)</span><span class="op">[</span>,<span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">'Min.'</span>,<span class="st">'Mean'</span>,<span class="st">'Max.'</span><span class="op">)</span><span class="op">]</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span><span class="va">stats_df</span><span class="op">)</span></span>
 <span><span class="co">#&gt;              Min.    Mean    Max.</span></span>
-<span><span class="co">#&gt; tmin       -5.865  10.249  20.196</span></span>
-<span><span class="co">#&gt; tmax        4.752  14.508  26.835</span></span>
-<span><span class="co">#&gt; relhum     44.039  83.855 100.000</span></span>
-<span><span class="co">#&gt; pres       94.888 101.003 104.588</span></span>
-<span><span class="co">#&gt; swrad       5.932 132.744 351.706</span></span>
-<span><span class="co">#&gt; lwrad     220.937 318.311 390.456</span></span>
-<span><span class="co">#&gt; windspeed   0.034   3.950  24.487</span></span>
-<span><span class="co">#&gt; winddir     0.000 173.102 360.000</span></span>
-<span><span class="co">#&gt; prec        0.000   3.143  52.488</span></span></code></pre></div>
+<span><span class="co">#&gt; tmin        3.228   9.822  14.583</span></span>
+<span><span class="co">#&gt; tmax        9.540  14.456  21.700</span></span>
+<span><span class="co">#&gt; relhum     62.246  81.589  99.851</span></span>
+<span><span class="co">#&gt; pres       94.888 100.654 103.322</span></span>
+<span><span class="co">#&gt; swrad     105.524 217.810 348.668</span></span>
+<span><span class="co">#&gt; lwrad     245.207 308.898 342.693</span></span>
+<span><span class="co">#&gt; windspeed   0.043   2.786  12.406</span></span>
+<span><span class="co">#&gt; winddir     0.003 183.142 359.998</span></span>
+<span><span class="co">#&gt; prec        0.000   2.362  20.107</span></span></code></pre></div>
 <p>Or as selected rasters for days corresponding to spatial quantiles
 (eg days where spatial means are ata min, median and max values):</p>
-<p><strong>CHECK:</strong> Max diurnal temperature range plot shows grid
-effect?</p>
 <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="kw">for</span><span class="op">(</span><span class="va">var</span> <span class="kw">in</span> <span class="fu"><a href="https://rspatial.github.io/terra/reference/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">mesolizd</span><span class="op">)</span><span class="op">)</span><span class="op">{</span></span>
-<span>  <span class="va">r</span><span class="op">&lt;-</span><span class="fu">terra</span><span class="fu">::</span><span class="fu"><a href="https://rspatial.github.io/terra/reference/wrap.html" class="external-link">unwrap</a></span><span class="op">(</span><span class="va">mesolizd</span><span class="op">[[</span><span class="va">var</span><span class="op">]</span><span class="op">]</span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="kw">for</span><span class="op">(</span><span class="va">var</span> <span class="kw">in</span> <span class="va">climvars</span><span class="op">)</span><span class="op">{</span></span>
+<span>  <span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span><span class="va">var</span><span class="op">)</span></span>
+<span>  <span class="va">r</span><span class="op">&lt;-</span><span class="va">mesoclimate</span><span class="op">[[</span><span class="va">var</span><span class="op">]</span><span class="op">]</span></span>
 <span>  <span class="fu"><a href="https://rspatial.github.io/terra/reference/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">r</span><span class="op">)</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/rep.html" class="external-link">rep</a></span><span class="op">(</span><span class="va">var</span>,<span class="fu"><a href="https://rspatial.github.io/terra/reference/dimensions.html" class="external-link">nlyr</a></span><span class="op">(</span><span class="va">r</span><span class="op">)</span><span class="op">)</span></span>
-<span>  <span class="fu"><a href="../reference/plot_q_layers.html">plot_q_layers</a></span><span class="op">(</span><span class="va">r</span><span class="op">)</span></span>
-<span><span class="op">}</span></span></code></pre></div>
-<p><img src="mesoclim_3_spdscale_files/figure-html/map-outputs-1.png" width="700"><img src="mesoclim_3_spdscale_files/figure-html/map-outputs-2.png" width="700"><img src="mesoclim_3_spdscale_files/figure-html/map-outputs-3.png" width="700"><img src="mesoclim_3_spdscale_files/figure-html/map-outputs-4.png" width="700"><img src="mesoclim_3_spdscale_files/figure-html/map-outputs-5.png" width="700"><img src="mesoclim_3_spdscale_files/figure-html/map-outputs-6.png" width="700"><img src="mesoclim_3_spdscale_files/figure-html/map-outputs-7.png" width="700"><img src="mesoclim_3_spdscale_files/figure-html/map-outputs-8.png" width="700"><img src="mesoclim_3_spdscale_files/figure-html/map-outputs-9.png" width="700"></p>
-<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
+<span>  <span class="fu"><a href="../reference/plot_q_layers.html">plot_q_layers</a></span><span class="op">(</span><span class="va">r</span>,vtext<span class="op">=</span><span class="va">var</span><span class="op">)</span></span>
+<span><span class="op">}</span></span>
+<span><span class="co">#&gt; [1] "tmin"</span></span></code></pre></div>
+<p><img src="mesoclim_3_spdscale_files/figure-html/map-outputs-1.png" width="700"></p>
+<pre><code><span><span class="co">#&gt; [1] "tmax"</span></span></code></pre>
+<p><img src="mesoclim_3_spdscale_files/figure-html/map-outputs-2.png" width="700"></p>
+<pre><code><span><span class="co">#&gt; [1] "relhum"</span></span></code></pre>
+<p><img src="mesoclim_3_spdscale_files/figure-html/map-outputs-3.png" width="700"></p>
+<pre><code><span><span class="co">#&gt; [1] "pres"</span></span></code></pre>
+<p><img src="mesoclim_3_spdscale_files/figure-html/map-outputs-4.png" width="700"></p>
+<pre><code><span><span class="co">#&gt; [1] "swrad"</span></span></code></pre>
+<p><img src="mesoclim_3_spdscale_files/figure-html/map-outputs-5.png" width="700"></p>
+<pre><code><span><span class="co">#&gt; [1] "lwrad"</span></span></code></pre>
+<p><img src="mesoclim_3_spdscale_files/figure-html/map-outputs-6.png" width="700"></p>
+<pre><code><span><span class="co">#&gt; [1] "windspeed"</span></span></code></pre>
+<p><img src="mesoclim_3_spdscale_files/figure-html/map-outputs-7.png" width="700"></p>
+<pre><code><span><span class="co">#&gt; [1] "winddir"</span></span></code></pre>
+<p><img src="mesoclim_3_spdscale_files/figure-html/map-outputs-8.png" width="700"></p>
+<pre><code><span><span class="co">#&gt; [1] "prec"</span></span></code></pre>
+<p><img src="mesoclim_3_spdscale_files/figure-html/map-outputs-9.png" width="700"></p>
+<div class="sourceCode" id="cb14"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span></span>
 <span><span class="co"># Show spatial range in daily temperatures</span></span>
-<span><span class="fu"><a href="https://rspatial.github.io/terra/reference/plot.html" class="external-link">plot</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/Extremes.html" class="external-link">max</a></span><span class="op">(</span><span class="fu"><a href="https://rspatial.github.io/terra/reference/wrap.html" class="external-link">unwrap</a></span><span class="op">(</span><span class="va">mesolizd</span><span class="op">$</span><span class="va">tmax</span><span class="op">)</span><span class="op">-</span><span class="fu"><a href="https://rspatial.github.io/terra/reference/wrap.html" class="external-link">unwrap</a></span><span class="op">(</span><span class="va">mesolizd</span><span class="op">$</span><span class="va">tmin</span><span class="op">)</span><span class="op">)</span>,main<span class="op">=</span><span class="st">'Max diurnal temperature range'</span>, font.main <span class="op">=</span> <span class="fl">1</span>, nc<span class="op">=</span><span class="fl">1</span><span class="op">)</span></span></code></pre></div>
+<span><span class="fu"><a href="https://rspatial.github.io/terra/reference/plot.html" class="external-link">plot</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/Extremes.html" class="external-link">max</a></span><span class="op">(</span><span class="va">mesoclimate</span><span class="op">$</span><span class="va">tmax</span><span class="op">)</span><span class="op">-</span><span class="fu"><a href="https://rdrr.io/r/base/Extremes.html" class="external-link">min</a></span><span class="op">(</span><span class="va">mesoclimate</span><span class="op">$</span><span class="va">tmin</span><span class="op">)</span>,main<span class="op">=</span><span class="st">'Max diurnal temperature range'</span>, font.main <span class="op">=</span> <span class="fl">1</span>, nc<span class="op">=</span><span class="fl">1</span><span class="op">)</span></span></code></pre></div>
 <p><img src="mesoclim_3_spdscale_files/figure-html/map-outputs-10.png" width="700"></p>
-<div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb15"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/par.html" class="external-link">par</a></span><span class="op">(</span>mar<span class="op">=</span><span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="fl">1</span>,<span class="fl">1</span>,<span class="fl">1</span>,<span class="fl">1</span><span class="op">)</span>,cex.main<span class="op">=</span><span class="fl">0.8</span>, mgp<span class="op">=</span><span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="fl">3</span>,<span class="fl">0.1</span>,<span class="fl">0</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/graphics/layout.html" class="external-link">layout</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/matrix.html" class="external-link">matrix</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="fl">1</span>,<span class="fl">2</span>,<span class="fl">3</span>,<span class="fl">4</span>,<span class="fl">1</span>,<span class="fl">5</span>,<span class="fl">6</span>,<span class="fl">7</span>,<span class="fl">1</span>,<span class="fl">8</span>,<span class="fl">9</span>,<span class="fl">10</span><span class="op">)</span>,ncol<span class="op">=</span><span class="fl">3</span><span class="op">)</span>,heights<span class="op">=</span><span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="fl">1</span>,<span class="fl">3</span>,<span class="fl">3</span>,<span class="fl">3</span><span class="op">)</span><span class="op">)</span></span>
 <span></span>
@@ -213,8 +231,8 @@ effect?</p>
 <span><span class="fu"><a href="https://rdrr.io/r/graphics/frame.html" class="external-link">plot.new</a></span><span class="op">(</span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rspatial.github.io/terra/reference/text.html" class="external-link">text</a></span><span class="op">(</span><span class="fl">0.5</span>,<span class="fl">0.5</span>,<span class="st">"Spatial mean (green), max (red) and min (blue) by day of year"</span>,cex<span class="op">=</span><span class="fl">1</span>,font<span class="op">=</span><span class="fl">1</span><span class="op">)</span></span>
 <span></span>
-<span><span class="kw">for</span><span class="op">(</span><span class="va">v</span> <span class="kw">in</span> <span class="fu"><a href="https://rspatial.github.io/terra/reference/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">mesolizd</span><span class="op">)</span><span class="op">)</span><span class="op">{</span></span>
-<span>  <span class="va">r</span><span class="op">&lt;-</span><span class="fu"><a href="https://rspatial.github.io/terra/reference/wrap.html" class="external-link">unwrap</a></span><span class="op">(</span><span class="va">mesolizd</span><span class="op">[[</span><span class="va">v</span><span class="op">]</span><span class="op">]</span><span class="op">)</span></span>
+<span><span class="kw">for</span><span class="op">(</span><span class="va">v</span> <span class="kw">in</span> <span class="va">climvars</span><span class="op">)</span><span class="op">{</span></span>
+<span>  <span class="va">r</span><span class="op">&lt;-</span><span class="va">mesoclimate</span><span class="op">[[</span><span class="va">v</span><span class="op">]</span><span class="op">]</span></span>
 <span>  <span class="fu"><a href="../reference/plot_timestats_r.html">plot_timestats_r</a></span><span class="op">(</span><span class="va">r</span>,<span class="va">v</span>,idx<span class="op">=</span><span class="st">'doy'</span>,lgd<span class="op">=</span><span class="cn">FALSE</span><span class="op">)</span></span>
 <span><span class="op">}</span></span></code></pre></div>
 <p><img src="mesoclim_3_spdscale_files/figure-html/tseries_output-1.png" width="700"></p>
@@ -245,8 +263,8 @@ message if input wind dir varies?</p></li>
 <div class="section level4">
 <h4 id="pressure">Pressure<a class="anchor" aria-label="anchor" href="#pressure"></a>
 </h4>
-<div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="va">pres</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/presdownscale.html">presdownscale</a></span><span class="op">(</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">climarray</span><span class="op">$</span><span class="va">pres</span>, <span class="va">dtmf</span>, <span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">dtmc</span>, sealevel <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+<div class="sourceCode" id="cb16"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="va">pres</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/presdownscale.html">presdownscale</a></span><span class="op">(</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">pres</span>, <span class="va">dtmf</span>, <span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">dtm</span>, sealevel <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rspatial.github.io/terra/reference/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">pres</span><span class="op">)</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/rep.html" class="external-link">rep</a></span><span class="op">(</span><span class="st">'pres'</span>,<span class="fu"><a href="https://rspatial.github.io/terra/reference/dimensions.html" class="external-link">nlyr</a></span><span class="op">(</span><span class="va">pres</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="fu">terra</span><span class="fu">::</span><span class="fu"><a href="https://rspatial.github.io/terra/reference/time.html" class="external-link">time</a></span><span class="op">(</span><span class="va">pres</span><span class="op">)</span><span class="op">&lt;-</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">tme</span></span>
 <span></span>
@@ -259,16 +277,16 @@ message if input wind dir varies?</p></li>
 <p>Requires the estimation of drainage basins defined by topography
 which can be carried out separately from the estimation of cold-air
 drainage in downscaling.</p>
-<div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb17"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># Basins - dtmf should have sea marked as NA</span></span>
 <span><span class="va">basins</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/basindelin.html">basindelin</a></span><span class="op">(</span><span class="va">dtmf</span>,boundary<span class="op">=</span><span class="fl">2</span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rspatial.github.io/terra/reference/plot.html" class="external-link">plot</a></span><span class="op">(</span><span class="va">basins</span>,main<span class="op">=</span><span class="st">'basins'</span><span class="op">)</span></span></code></pre></div>
 <p><img src="mesoclim_3_spdscale_files/figure-html/calc_basins-1.png" width="700"></p>
-<p>For the chosen study area, cold air drainage has very little effect
-on local temperatures:</p>
-<div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
+<p>For the chosen study area, cold air drainage has no effect on local
+temperatures during the chosen timeperiod (May):</p>
+<div class="sourceCode" id="cb18"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># Calculate using tmin to illustrate</span></span>
-<span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">climarray</span><span class="op">$</span><span class="va">temp</span><span class="op">&lt;-</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">climarray</span><span class="op">$</span><span class="va">tmin</span></span>
+<span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">temp</span><span class="op">&lt;-</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">tmin</span></span>
 <span><span class="va">tcad</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/dot-tempcad.html">.tempcad</a></span><span class="op">(</span><span class="va">ukcp18rcm</span>,<span class="va">dtmf</span>,<span class="va">basins</span>,refhgt<span class="op">=</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">tempheight_m</span><span class="op">)</span></span>
 <span></span>
 <span><span class="fu"><a href="https://rspatial.github.io/terra/reference/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">tcad</span><span class="op">)</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/rep.html" class="external-link">rep</a></span><span class="op">(</span><span class="st">'temp_cad'</span>,<span class="fu"><a href="https://rspatial.github.io/terra/reference/dimensions.html" class="external-link">nlyr</a></span><span class="op">(</span><span class="va">tcad</span><span class="op">)</span><span class="op">)</span></span>
@@ -283,9 +301,9 @@ on local temperatures:</p>
 <p>Variable lapse rates derived from temperature, humidity and pressure
 are applied to correct for elevation effects when downscaling. For daily
 temperatures this can be carried out for min and max daily values.</p>
-<div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="va">tminelev</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/dot-tempelev.html">.tempelev</a></span><span class="op">(</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">climarray</span><span class="op">$</span><span class="va">tmin</span>,<span class="va">dtmf</span>,<span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">dtmc</span>,<span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">climarray</span><span class="op">$</span><span class="va">relhum</span>,<span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">climarray</span><span class="op">$</span><span class="va">pres</span><span class="op">)</span></span>
-<span><span class="va">tmaxelev</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/dot-tempelev.html">.tempelev</a></span><span class="op">(</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">climarray</span><span class="op">$</span><span class="va">tmax</span>,<span class="va">dtmf</span>,<span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">dtmc</span>,<span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">climarray</span><span class="op">$</span><span class="va">relhum</span>,<span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">climarray</span><span class="op">$</span><span class="va">pres</span><span class="op">)</span></span>
+<div class="sourceCode" id="cb19"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="va">tminelev</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/dot-tempelev.html">.tempelev</a></span><span class="op">(</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">tmin</span>,<span class="va">dtmf</span>,<span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">dtm</span>,<span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">relhum</span>,<span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">pres</span><span class="op">)</span></span>
+<span><span class="va">tmaxelev</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/dot-tempelev.html">.tempelev</a></span><span class="op">(</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">tmax</span>,<span class="va">dtmf</span>,<span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">dtm</span>,<span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">relhum</span>,<span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">pres</span><span class="op">)</span></span>
 <span></span>
 <span><span class="fu"><a href="https://rspatial.github.io/terra/reference/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">tminelev</span><span class="op">)</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/rep.html" class="external-link">rep</a></span><span class="op">(</span><span class="st">'tmin_elev'</span>,<span class="fu"><a href="https://rspatial.github.io/terra/reference/dimensions.html" class="external-link">nlyr</a></span><span class="op">(</span><span class="va">tminelev</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="fu">terra</span><span class="fu">::</span><span class="fu"><a href="https://rspatial.github.io/terra/reference/time.html" class="external-link">time</a></span><span class="op">(</span><span class="va">tminelev</span><span class="op">)</span><span class="op">&lt;-</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">tme</span></span>
@@ -295,10 +313,10 @@ temperatures this can be carried out for min and max daily values.</p>
 <span></span>
 <span><span class="fu"><a href="../reference/plot_q_layers.html">plot_q_layers</a></span><span class="op">(</span><span class="va">tminelev</span><span class="op">)</span></span></code></pre></div>
 <p><img src="mesoclim_3_spdscale_files/figure-html/temp_elev_dscale-1.png" width="700"></p>
-<div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb20"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="../reference/plot_q_layers.html">plot_q_layers</a></span><span class="op">(</span><span class="va">tmaxelev</span><span class="op">)</span></span></code></pre></div>
 <p><img src="mesoclim_3_spdscale_files/figure-html/temp_elev_dscale-2.png" width="700"></p>
-<div class="sourceCode" id="cb13"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb21"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span></span>
 <span><span class="co"># Check dirunal range of elev downscaling</span></span>
 <span><span class="va">diurnaltmp</span><span class="op">&lt;-</span><span class="va">tmaxelev</span><span class="op">-</span><span class="va">tminelev</span></span>
@@ -312,8 +330,8 @@ temperatures this can be carried out for min and max daily values.</p>
 <p>Windspeed downscaling aims to capture the effect of both elevation
 and the sheltering effects of topography that are in turn dependent on
 wind direction and height above ground.</p>
-<div class="sourceCode" id="cb14"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="va">windspeed</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/winddownscale.html">winddownscale</a></span><span class="op">(</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">climarray</span><span class="op">$</span><span class="va">windspeed</span>, <span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">climarray</span><span class="op">$</span><span class="va">winddir</span>, <span class="va">dtmf</span>, <span class="va">dtmm</span>, <span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">dtmc</span>, uz <span class="op">=</span> <span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">windheight_m</span><span class="op">)</span></span>
+<div class="sourceCode" id="cb22"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="va">windspeed</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/winddownscale.html">winddownscale</a></span><span class="op">(</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">windspeed</span>, <span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">winddir</span>, <span class="va">dtmf</span>, <span class="va">dtmm</span>, <span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">dtm</span>, zi <span class="op">=</span> <span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">windheight_m</span>, zo<span class="op">=</span><span class="fl">2</span><span class="op">)</span></span>
 <span></span>
 <span><span class="fu"><a href="https://rspatial.github.io/terra/reference/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">windspeed</span><span class="op">)</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/rep.html" class="external-link">rep</a></span><span class="op">(</span><span class="st">'windspeed'</span>,<span class="fu"><a href="https://rspatial.github.io/terra/reference/dimensions.html" class="external-link">nlyr</a></span><span class="op">(</span><span class="va">windspeed</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="fu">terra</span><span class="fu">::</span><span class="fu"><a href="https://rspatial.github.io/terra/reference/time.html" class="external-link">time</a></span><span class="op">(</span><span class="va">windspeed</span><span class="op">)</span><span class="op">&lt;-</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">tme</span></span>
@@ -331,10 +349,17 @@ effects of upwind sea areas.</p>
 <p><em>ADD:</em> Guidance on selection of the extent of dtmm - how far
 should dtms extend from the downscaling area to adequately capture
 coastal effects??</p>
-<div class="sourceCode" id="cb15"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="va">sstf</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/dot-resample.html">.resample</a></span><span class="op">(</span><span class="va">sst</span>,<span class="va">dtmf</span><span class="op">)</span></span>
-<span><span class="va">tmincoast</span><span class="op">&lt;-</span><span class="fu">.tempcoastal</span><span class="op">(</span><span class="va">tminelev</span>,<span class="va">sstf</span>,<span class="va">windspeed</span>,<span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">climarray</span><span class="op">$</span><span class="va">winddir</span>,<span class="va">dtmf</span>,<span class="va">dtmm</span>,<span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">dtmc</span><span class="op">)</span></span>
-<span><span class="va">tmaxcoast</span><span class="op">&lt;-</span><span class="fu">.tempcoastal</span><span class="op">(</span><span class="va">tmaxelev</span>,<span class="va">sstf</span>,<span class="va">windspeed</span>,<span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">climarray</span><span class="op">$</span><span class="va">winddir</span>,<span class="va">dtmf</span>,<span class="va">dtmm</span>,<span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">dtmc</span><span class="op">)</span></span>
+<div class="sourceCode" id="cb23"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># Interpolate - filling NAs and ensuring timesteps match climate inputs - MOVE THIS TO DATA PREP FUNCTION FOR SST??</span></span>
+<span><span class="kw">if</span> <span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/any.html" class="external-link">any</a></span><span class="op">(</span><span class="fu"><a href="https://rspatial.github.io/terra/reference/global.html" class="external-link">global</a></span><span class="op">(</span><span class="va">sst</span>,<span class="va">anyNA</span><span class="op">)</span><span class="op">)</span><span class="op">)</span> <span class="va">sstinterp</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/dot-spatinterp.html">.spatinterp</a></span><span class="op">(</span><span class="va">sst</span><span class="op">)</span> <span class="kw">else</span> <span class="va">sstinterp</span><span class="op">&lt;-</span><span class="va">sst</span></span>
+<span><span class="va">sstinterp</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/dot-tmeinterp.html">.tmeinterp</a></span><span class="op">(</span><span class="va">sstinterp</span>,<span class="cn">NA</span>,<span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">tme</span><span class="op">)</span></span>
+<span><span class="co"># Resample to dtmf</span></span>
+<span><span class="kw">if</span> <span class="op">(</span><span class="fu"><a href="https://rspatial.github.io/terra/reference/crs.html" class="external-link">crs</a></span><span class="op">(</span><span class="va">sstinterp</span><span class="op">)</span> <span class="op">!=</span> <span class="fu"><a href="https://rspatial.github.io/terra/reference/crs.html" class="external-link">crs</a></span><span class="op">(</span><span class="va">dtmf</span><span class="op">)</span><span class="op">)</span> <span class="va">sstinterp</span><span class="op">&lt;-</span><span class="fu"><a href="https://rspatial.github.io/terra/reference/project.html" class="external-link">project</a></span><span class="op">(</span><span class="va">sstinterp</span>,<span class="fu"><a href="https://rspatial.github.io/terra/reference/crs.html" class="external-link">crs</a></span><span class="op">(</span><span class="va">dtmf</span><span class="op">)</span><span class="op">)</span></span>
+<span><span class="va">sstf</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/dot-resample.html">.resample</a></span><span class="op">(</span><span class="va">sstinterp</span>,<span class="va">dtmf</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Calculate coastal temp effects - uses already downscaled windspeed</span></span>
+<span><span class="va">tmincoast</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/dot-tempcoastal.html">.tempcoastal</a></span><span class="op">(</span><span class="va">tminelev</span>,<span class="va">sstf</span>,<span class="va">windspeed</span>,<span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">winddir</span>,<span class="va">dtmf</span>,<span class="va">dtmm</span>,<span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">dtm</span><span class="op">)</span></span>
+<span><span class="va">tmaxcoast</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/dot-tempcoastal.html">.tempcoastal</a></span><span class="op">(</span><span class="va">tmaxelev</span>,<span class="va">sstf</span>,<span class="va">windspeed</span>,<span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">winddir</span>,<span class="va">dtmf</span>,<span class="va">dtmm</span>,<span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">dtm</span><span class="op">)</span></span>
 <span></span>
 <span><span class="fu"><a href="https://rspatial.github.io/terra/reference/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">tmincoast</span><span class="op">)</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/rep.html" class="external-link">rep</a></span><span class="op">(</span><span class="st">'tmin_coastef'</span>,<span class="fu"><a href="https://rspatial.github.io/terra/reference/dimensions.html" class="external-link">nlyr</a></span><span class="op">(</span><span class="va">tmincoast</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="fu">terra</span><span class="fu">::</span><span class="fu"><a href="https://rspatial.github.io/terra/reference/time.html" class="external-link">time</a></span><span class="op">(</span><span class="va">tmincoast</span><span class="op">)</span><span class="op">&lt;-</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">tme</span></span>
@@ -343,7 +368,7 @@ coastal effects??</p>
 <span></span>
 <span><span class="fu"><a href="../reference/plot_q_layers.html">plot_q_layers</a></span><span class="op">(</span><span class="va">tmincoast</span><span class="op">)</span></span></code></pre></div>
 <p><img src="mesoclim_3_spdscale_files/figure-html/coastal-1.png" width="700"></p>
-<div class="sourceCode" id="cb16"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb24"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="../reference/plot_q_layers.html">plot_q_layers</a></span><span class="op">(</span><span class="va">tmaxcoast</span><span class="op">)</span></span></code></pre></div>
 <p><img src="mesoclim_3_spdscale_files/figure-html/coastal-2.png" width="700"></p>
 </div>
@@ -353,21 +378,20 @@ coastal effects??</p>
 <p>If only concerned with temperature downscaling, the wrapper function
 <code>tempdownscale</code> allows all relevant processes to be run as a
 single function.</p>
-<div class="sourceCode" id="cb17"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">climarray</span><span class="op">$</span><span class="va">temp</span><span class="op">&lt;-</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">climarray</span><span class="op">$</span><span class="va">tmin</span></span>
-<span><span class="va">tmin</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/tempdownscale.html">tempdownscale</a></span><span class="op">(</span> <span class="va">ukcp18rcm</span>,</span>
+<div class="sourceCode" id="cb25"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="va">tmin</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/tempdownscale.html">tempdownscale</a></span><span class="op">(</span> <span class="va">ukcp18rcm</span>,</span>
 <span>                  <span class="va">sst</span>,<span class="co"># can be coarse resolution</span></span>
 <span>                  <span class="va">dtmf</span>, <span class="co"># fine scale dem</span></span>
 <span>                  <span class="va">dtmm</span> , <span class="co"># medium re wider are dem</span></span>
 <span>                  basins <span class="op">=</span> <span class="va">basins</span>, <span class="co"># basindelin() output or will calculate</span></span>
-<span>                  u2 <span class="op">=</span> <span class="va">windspeed</span>, <span class="co"># windspeeds downscaled - or will calculate</span></span>
+<span>                  u2 <span class="op">=</span> <span class="va">windspeed</span>, <span class="co"># windspeeds downscaled - or will calculate</span></span>
 <span>                  cad <span class="op">=</span> <span class="cn">TRUE</span>,</span>
 <span>                  coastal <span class="op">=</span> <span class="cn">TRUE</span>,</span>
-<span>                  refhgt <span class="op">=</span> <span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">tempheight_m</span>, <span class="co"># temp height</span></span>
-<span>                  uhgt <span class="op">=</span> <span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">windheight_m</span> <span class="co"># wind height</span></span>
+<span>                  tempvar <span class="op">=</span> <span class="st">'tmin'</span>,</span>
+<span>                  whgto <span class="op">=</span> <span class="fl">2</span>, <span class="co"># output wind height above ground</span></span>
+<span>                  thgto <span class="op">=</span> <span class="fl">2</span> <span class="co"># output temperature height above ground</span></span>
 <span>                  <span class="op">)</span></span>
 <span></span>
-<span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">climarray</span><span class="op">$</span><span class="va">temp</span><span class="op">&lt;-</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">climarray</span><span class="op">$</span><span class="va">tmax</span></span>
 <span><span class="va">tmax</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/tempdownscale.html">tempdownscale</a></span><span class="op">(</span><span class="va">ukcp18rcm</span>,</span>
 <span>                  <span class="va">sst</span>,<span class="co"># can be coarse</span></span>
 <span>                  <span class="va">dtmf</span>, <span class="co"># fine scale dem</span></span>
@@ -376,16 +400,17 @@ single function.</p>
 <span>                  u2 <span class="op">=</span> <span class="va">windspeed</span>, <span class="co"># windspeeds downscaled</span></span>
 <span>                  cad <span class="op">=</span> <span class="cn">TRUE</span>,</span>
 <span>                  coastal <span class="op">=</span> <span class="cn">TRUE</span>,</span>
-<span>                  refhgt <span class="op">=</span> <span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">tempheight_m</span>, <span class="co"># temp height</span></span>
-<span>                  uhgt <span class="op">=</span> <span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">windheight_m</span> <span class="co"># wind height</span></span>
+<span>                  tempvar <span class="op">=</span> <span class="st">'tmax'</span>,</span>
+<span>                  whgto <span class="op">=</span> <span class="fl">2</span>, <span class="co"># output wind height above ground</span></span>
+<span>                  thgto <span class="op">=</span> <span class="fl">2</span> <span class="co"># output temperature height above ground</span></span>
 <span>                  <span class="op">)</span></span>
 <span></span>
 <span><span class="fu"><a href="../reference/plot_q_layers.html">plot_q_layers</a></span><span class="op">(</span><span class="va">tmin</span><span class="op">)</span></span></code></pre></div>
 <p><img src="mesoclim_3_spdscale_files/figure-html/temp-dscale-1.png" width="700"></p>
-<div class="sourceCode" id="cb18"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb26"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="../reference/plot_q_layers.html">plot_q_layers</a></span><span class="op">(</span><span class="va">tmax</span><span class="op">)</span></span></code></pre></div>
 <p><img src="mesoclim_3_spdscale_files/figure-html/temp-dscale-2.png" width="700"></p>
-<div class="sourceCode" id="cb19"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb27"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span></span>
 <span><span class="va">diurnaltmp</span><span class="op">&lt;-</span><span class="va">tmax</span><span class="op">-</span><span class="va">tmin</span></span>
 <span><span class="fu"><a href="https://rspatial.github.io/terra/reference/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">diurnaltmp</span><span class="op">)</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/rep.html" class="external-link">rep</a></span><span class="op">(</span><span class="st">'Diurnal_temp_range'</span>,<span class="fu"><a href="https://rspatial.github.io/terra/reference/dimensions.html" class="external-link">nlyr</a></span><span class="op">(</span><span class="va">diurnaltmp</span><span class="op">)</span><span class="op">)</span></span>
@@ -397,41 +422,44 @@ single function.</p>
 </h4>
 <p>The <code><a href="../reference/precipdownscale.html">precipdownscale()</a></code> function provides various options
 and methods to downscale rainfall.</p>
-<div class="sourceCode" id="cb20"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb28"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">method</span><span class="op">&lt;-</span><span class="st">'Elev'</span></span>
 <span><span class="va">precelev</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/precipdownscale.html">precipdownscale</a></span><span class="op">(</span></span>
-<span>  <span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">climarray</span><span class="op">$</span><span class="va">prec</span>,</span>
+<span>  <span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">prec</span>,</span>
 <span>  <span class="va">dtmf</span>,</span>
-<span>  <span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">dtmc</span>,</span>
+<span>  <span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">dtm</span>,</span>
 <span>  method <span class="op">=</span> <span class="va">method</span>,</span>
 <span>  fast <span class="op">=</span> <span class="cn">TRUE</span>,</span>
 <span>  noraincut <span class="op">=</span> <span class="fl">0.01</span>,</span>
 <span>  patchsim <span class="op">=</span> <span class="cn">FALSE</span>,</span>
-<span>  nsim <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/dim.html" class="external-link">dim</a></span><span class="op">(</span> <span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">climarray</span><span class="op">$</span><span class="va">prec</span><span class="op">)</span><span class="op">[</span><span class="fl">3</span><span class="op">]</span></span>
+<span>  nsim <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/dim.html" class="external-link">dim</a></span><span class="op">(</span> <span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">prec</span><span class="op">)</span><span class="op">[</span><span class="fl">3</span><span class="op">]</span></span>
 <span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rspatial.github.io/terra/reference/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">precelev</span><span class="op">)</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/rep.html" class="external-link">rep</a></span><span class="op">(</span><span class="st">'prec_elev'</span>,<span class="fu"><a href="https://rspatial.github.io/terra/reference/dimensions.html" class="external-link">nlyr</a></span><span class="op">(</span><span class="va">precelev</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="fu">terra</span><span class="fu">::</span><span class="fu"><a href="https://rspatial.github.io/terra/reference/time.html" class="external-link">time</a></span><span class="op">(</span><span class="va">precelev</span><span class="op">)</span><span class="op">&lt;-</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">tme</span></span>
 <span><span class="fu"><a href="../reference/plot_q_layers.html">plot_q_layers</a></span><span class="op">(</span><span class="va">precelev</span><span class="op">)</span></span></code></pre></div>
 <p><img src="mesoclim_3_spdscale_files/figure-html/precip-dscale-1.png" width="700"></p>
-<div class="sourceCode" id="cb21"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb29"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span></span>
 <span><span class="va">method</span><span class="op">&lt;-</span><span class="st">'Tps'</span></span>
 <span><span class="va">prectps</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/precipdownscale.html">precipdownscale</a></span><span class="op">(</span></span>
-<span>  <span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">climarray</span><span class="op">$</span><span class="va">prec</span>,</span>
+<span>  <span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">prec</span>,</span>
 <span>  <span class="va">dtmf</span>,</span>
-<span>  <span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">dtmc</span>,</span>
+<span>  <span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">dtm</span>,</span>
 <span>  method <span class="op">=</span> <span class="va">method</span>,</span>
 <span>  fast <span class="op">=</span> <span class="cn">TRUE</span>,</span>
 <span>  noraincut <span class="op">=</span> <span class="fl">0.01</span>,</span>
 <span>  patchsim <span class="op">=</span> <span class="cn">FALSE</span>,</span>
-<span>  nsim <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/dim.html" class="external-link">dim</a></span><span class="op">(</span> <span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">climarray</span><span class="op">$</span><span class="va">prec</span><span class="op">)</span><span class="op">[</span><span class="fl">3</span><span class="op">]</span></span>
+<span>  nsim <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/dim.html" class="external-link">dim</a></span><span class="op">(</span> <span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">prec</span><span class="op">)</span><span class="op">[</span><span class="fl">3</span><span class="op">]</span></span>
 <span><span class="op">)</span></span>
+<span><span class="co">#&gt; Warning in precipdownscale(ukcp18rcm$prec, dtmf, ukcp18rcm$dtm, method =</span></span>
+<span><span class="co">#&gt; method, : Not enough non NA cells for sensible thin-plate spline downscale.</span></span>
+<span><span class="co">#&gt; Changed method to Elev</span></span>
 <span><span class="fu"><a href="https://rspatial.github.io/terra/reference/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">prectps</span><span class="op">)</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/rep.html" class="external-link">rep</a></span><span class="op">(</span><span class="st">'prec_tps'</span>,<span class="fu"><a href="https://rspatial.github.io/terra/reference/dimensions.html" class="external-link">nlyr</a></span><span class="op">(</span><span class="va">prectps</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="fu">terra</span><span class="fu">::</span><span class="fu"><a href="https://rspatial.github.io/terra/reference/time.html" class="external-link">time</a></span><span class="op">(</span><span class="va">prectps</span><span class="op">)</span><span class="op">&lt;-</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">tme</span></span>
 <span></span>
 <span><span class="fu"><a href="../reference/plot_q_layers.html">plot_q_layers</a></span><span class="op">(</span><span class="va">prectps</span><span class="op">)</span></span></code></pre></div>
 <p><img src="mesoclim_3_spdscale_files/figure-html/precip-dscale-2.png" width="700"></p>
-<div class="sourceCode" id="cb22"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb30"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span></span>
 <span><span class="va">prec</span><span class="op">&lt;-</span><span class="va">prectps</span></span></code></pre></div>
 </div>
@@ -440,12 +468,12 @@ and methods to downscale rainfall.</p>
 </h4>
 <p>Longwave downscaling accounts for the effects of terrain shading
 effect on skyview.</p>
-<div class="sourceCode" id="cb23"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb31"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># simple downscaling</span></span>
-<span><span class="va">lwf</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/dot-resample.html">.resample</a></span><span class="op">(</span><span class="fu"><a href="../reference/dot-rast.html">.rast</a></span><span class="op">(</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">climarray</span><span class="op">$</span><span class="va">lwrad</span>,<span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">dtmc</span><span class="op">)</span>, <span class="va">dtmf</span>, msk<span class="op">=</span><span class="cn">TRUE</span><span class="op">)</span></span>
+<span><span class="va">lwf</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/dot-resample.html">.resample</a></span><span class="op">(</span><span class="fu"><a href="../reference/dot-rast.html">.rast</a></span><span class="op">(</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">lwrad</span>,<span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">dtm</span><span class="op">)</span>, <span class="va">dtmf</span>, msk<span class="op">=</span><span class="cn">TRUE</span><span class="op">)</span></span>
 <span><span class="co"># corrected for skyview  </span></span>
 <span><span class="va">svf</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/dot-rta.html">.rta</a></span><span class="op">(</span><span class="fu">.skyview</span><span class="op">(</span><span class="va">dtmf</span><span class="op">)</span>,<span class="fu"><a href="https://rdrr.io/r/base/dim.html" class="external-link">dim</a></span><span class="op">(</span><span class="va">lwf</span><span class="op">)</span><span class="op">[</span><span class="fl">3</span><span class="op">]</span><span class="op">)</span></span>
-<span><span class="va">lwrad</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/dot-rast.html">.rast</a></span><span class="op">(</span><span class="fu"><a href="../reference/dot-is.html">.is</a></span><span class="op">(</span><span class="va">lwf</span><span class="op">)</span><span class="op">*</span><span class="va">svf</span>,<span class="va">dtmf</span><span class="op">)</span></span>
+<span><span class="va">lwrad</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/dot-rast.html">.rast</a></span><span class="op">(</span><span class="fu"><a href="https://rspatial.github.io/terra/reference/coerce.html" class="external-link">as.array</a></span><span class="op">(</span><span class="va">lwf</span><span class="op">)</span><span class="op">*</span><span class="va">svf</span>,<span class="va">dtmf</span><span class="op">)</span></span>
 <span></span>
 <span><span class="fu"><a href="https://rspatial.github.io/terra/reference/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">lwrad</span><span class="op">)</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/rep.html" class="external-link">rep</a></span><span class="op">(</span><span class="st">'lwrad'</span>,<span class="fu"><a href="https://rspatial.github.io/terra/reference/dimensions.html" class="external-link">nlyr</a></span><span class="op">(</span><span class="va">lwrad</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="fu">terra</span><span class="fu">::</span><span class="fu"><a href="https://rspatial.github.io/terra/reference/time.html" class="external-link">time</a></span><span class="op">(</span><span class="va">lwrad</span><span class="op">)</span><span class="op">&lt;-</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">tme</span></span>
@@ -456,8 +484,8 @@ effect on skyview.</p>
 <h4 id="shortwave-radiation-downscale">Shortwave radiation downscale<a class="anchor" aria-label="anchor" href="#shortwave-radiation-downscale"></a>
 </h4>
 <p>Can be carried out without cloud patchiness or terrain shading…</p>
-<div class="sourceCode" id="cb24"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="va">swrad</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/swraddownscale.html">swdownscale</a></span><span class="op">(</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">climarray</span><span class="op">$</span><span class="va">swrad</span>,<span class="fu"><a href="https://rdrr.io/r/base/as.POSIXlt.html" class="external-link">as.POSIXlt</a></span><span class="op">(</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">tme</span>, tz <span class="op">=</span> <span class="st">"UTC"</span><span class="op">)</span>,<span class="va">dtmf</span>,<span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">dtmc</span>,patchsim <span class="op">=</span> <span class="cn">FALSE</span>,terrainshade <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span>
+<div class="sourceCode" id="cb32"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="va">swrad</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/swraddownscale.html">swdownscale</a></span><span class="op">(</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">swrad</span>,<span class="fu"><a href="https://rdrr.io/r/base/as.POSIXlt.html" class="external-link">as.POSIXlt</a></span><span class="op">(</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">tme</span>, tz <span class="op">=</span> <span class="st">"UTC"</span><span class="op">)</span>,<span class="va">dtmf</span>,<span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">dtm</span>,patchsim <span class="op">=</span> <span class="cn">FALSE</span>,terrainshade <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span>
 <span></span>
 <span><span class="fu"><a href="https://rspatial.github.io/terra/reference/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">swrad</span><span class="op">)</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/rep.html" class="external-link">rep</a></span><span class="op">(</span><span class="st">'swrad'</span>,<span class="fu"><a href="https://rspatial.github.io/terra/reference/dimensions.html" class="external-link">nlyr</a></span><span class="op">(</span><span class="va">swrad</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="fu">terra</span><span class="fu">::</span><span class="fu"><a href="https://rspatial.github.io/terra/reference/time.html" class="external-link">time</a></span><span class="op">(</span><span class="va">swrad</span><span class="op">)</span><span class="op">&lt;-</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">tme</span></span>
@@ -465,8 +493,8 @@ effect on skyview.</p>
 <span><span class="fu"><a href="../reference/plot_q_layers.html">plot_q_layers</a></span><span class="op">(</span><span class="va">swrad</span><span class="op">)</span></span></code></pre></div>
 <p><img src="mesoclim_3_spdscale_files/figure-html/sw-dscale-1.png" width="700"></p>
 <p>… or with cloud patchiness…</p>
-<div class="sourceCode" id="cb25"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="va">swradp</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/swraddownscale.html">swdownscale</a></span><span class="op">(</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">climarray</span><span class="op">$</span><span class="va">swrad</span>,<span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">tme</span>,<span class="va">dtmf</span>,<span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">dtmc</span>,patchsim <span class="op">=</span> <span class="cn">TRUE</span>,nsim<span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/length.html" class="external-link">length</a></span><span class="op">(</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">tme</span><span class="op">)</span>,terrainshade <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span>
+<div class="sourceCode" id="cb33"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="va">swradp</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/swraddownscale.html">swdownscale</a></span><span class="op">(</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">swrad</span>,<span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">tme</span>,<span class="va">dtmf</span>,<span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">dtm</span>,patchsim <span class="op">=</span> <span class="cn">TRUE</span>,nsim<span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/length.html" class="external-link">length</a></span><span class="op">(</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">tme</span><span class="op">)</span>,terrainshade <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span>
 <span></span>
 <span><span class="fu"><a href="https://rspatial.github.io/terra/reference/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">swradp</span><span class="op">)</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/rep.html" class="external-link">rep</a></span><span class="op">(</span><span class="st">'swrad_with_patchiness'</span>,<span class="fu"><a href="https://rspatial.github.io/terra/reference/dimensions.html" class="external-link">nlyr</a></span><span class="op">(</span><span class="va">swradp</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="fu">terra</span><span class="fu">::</span><span class="fu"><a href="https://rspatial.github.io/terra/reference/time.html" class="external-link">time</a></span><span class="op">(</span><span class="va">swradp</span><span class="op">)</span><span class="op">&lt;-</span><span class="va">ukcp18rcm</span><span class="op">$</span><span class="va">tme</span></span>
@@ -485,13 +513,11 @@ effect on skyview.</p>
 
 
     <footer><div class="pkgdown-footer-left">
-  <p></p>
-<p>Developed by Ilya Maclean, Alexandra Gardner, Jonathan Mosedale.</p>
+  <p>Developed by Ilya Maclean, Alexandra Gardner, Jonathan Mosedale.</p>
 </div>
 
 <div class="pkgdown-footer-right">
-  <p></p>
-<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.7.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.9.</p>
 </div>
 
     </footer>
